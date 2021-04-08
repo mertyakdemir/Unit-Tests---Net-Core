@@ -18,7 +18,9 @@ namespace UnitTest.Web.Models
         }
 
         public virtual DbSet<Product> Products { get; set; }
-       
+
+        public virtual DbSet<Category> Category { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
